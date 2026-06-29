@@ -559,36 +559,12 @@ This report can be shared or downloaded for future reference.
 
 This project demonstrates practical implementation of modern technologies across the full stack.
 
-### Frontend
-
-- React 19
-- Vite
-- Tailwind CSS
-- React Router
-- Axios
-- Recharts
-
-### Backend
-
-- Flask
-- Pandas
-- NumPy
-- Scikit-learn
-- FPDF2
-
-### Artificial Intelligence
-
-- Ollama
-- Llama 3.2
-
-### Testing
-
-- pytest
-- Hypothesis
-- Vitest
-- fast-check
-
----
+| Category | Technologies |
+|----------|--------------|
+| 🎨 **Frontend** | React 19, Vite, Tailwind CSS, React Router, Axios, Recharts |
+| ⚙️ **Backend** | Flask, Pandas, NumPy, Scikit-learn, FPDF2 |
+| 🤖 **Artificial Intelligence** | Ollama, Llama 3.2 |
+| 🧪 **Testing** | pytest, Hypothesis, Vitest, fast-check |
 
 # 📚 Learning Objectives
 
