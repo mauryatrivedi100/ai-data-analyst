@@ -591,7 +591,7 @@ AI Data Analyst was built as part of my software engineering portfolio to demons
 
 ### Connect With Me
 
-- GitHub: https://github.com/mauryatrivedi100
+- GitHub: https://www.linkedin.com/in/maurya-trivedi-07a0a1381
 - LinkedIn: https://linkedin.com/in/mauryatrivedi
 
 
