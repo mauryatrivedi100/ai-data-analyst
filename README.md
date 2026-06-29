@@ -1,10 +1,232 @@
-# AI Data Analyst
+# 🚀 AI Data Analyst
 
-A full-stack web application that enables users to upload CSV datasets and perform an end-to-end data science workflow — all without writing code. Includes data cleaning, exploratory data analysis, visualization, machine learning model training, AI-powered insights (via local Llama 3.2), and PDF report generation.
+<div align="center">
 
-![Tech Stack](https://img.shields.io/badge/React-19-blue) ![Tech Stack](https://img.shields.io/badge/Flask-3.1-green) ![Tech Stack](https://img.shields.io/badge/Python-3.11+-yellow) ![Tech Stack](https://img.shields.io/badge/Tailwind-4-purple) ![Tech Stack](https://img.shields.io/badge/Ollama-Llama_3.2-orange)
+### An End-to-End AI-Powered Data Analysis Platform
 
-## Features
+Upload a CSV dataset and perform an entire data science workflow — from data cleaning and exploratory data analysis to machine learning, AI-generated insights, and automated PDF reports — all without writing a single line of code.
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-3.1-000000?logo=flask)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-Llama_3.2-orange)
+
+</div>
+
+---
+
+## 🌟 Overview
+
+AI Data Analyst is a **full-stack web application** that enables users to perform professional-grade data analysis directly from the browser.
+
+Instead of writing Python scripts or Jupyter notebooks, users simply upload a CSV dataset and the application automatically guides them through an end-to-end data science workflow.
+
+The platform combines modern web technologies with machine learning and local AI to provide an intuitive experience for students, analysts, and developers.
+
+---
+
+# ✨ Repository Highlights
+
+- 📂 Upload CSV datasets up to **50 MB**
+- 📊 Automatic dataset profiling
+- 🧹 Powerful data cleaning utilities
+- 📈 Interactive visualizations
+- 🤖 Machine Learning model training
+- 🧠 AI-powered insights using **Llama 3.2**
+- 📄 Automatic PDF report generation
+- 🔒 Runs completely locally (your data never leaves your computer)
+
+---
+
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Repository Highlights](#-repository-highlights)
+- [Application Walkthrough](#-application-walkthrough)
+- [Sample Dataset](#-sample-dataset)
+- [Sample Generated Report](#-sample-generated-report)
+- [Project Workflow](#-project-workflow)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Setup](#setup)
+- [Running the Application](#running-the-application)
+- [Project Structure](#project-structure)
+- [API Endpoints](#api-endpoints)
+- [FAQ](#faq)
+- [Project Highlights](#-project-highlights)
+- [Author](#-author)
+- [License](#-license)
+
+---
+
+# 📸 Application Walkthrough
+
+## 🏠 Home Page
+
+Landing page where users can upload a CSV dataset and begin the analysis.
+
+![Home](assets/home.png)
+
+---
+
+## 📊 Analysis Dashboard
+
+Displays dataset overview including rows, columns, missing values, data types, and summary statistics.
+
+![Dashboard](assets/analysis_dashboard.png)
+
+---
+
+## 🧹 Data Cleaning (Step 1)
+
+Clean missing values, remove duplicates, rename columns, convert data types and preprocess the dataset.
+
+![Cleaning1](assets/data_cleaning_1.png)
+
+---
+
+## 🧹 Data Cleaning (Step 2)
+
+Additional preprocessing including encoding categorical variables and scaling numerical features.
+
+![Cleaning2](assets/data_cleaning_2.png)
+
+---
+
+## 📈 Numerical Analysis
+
+Interactive statistical analysis of numerical features.
+
+![Numerical](assets/numerical_analysis.png)
+
+---
+
+## 📊 Categorical Analysis
+
+Analyze distributions of categorical features.
+
+![Categorical](assets/categorical_analysis.png)
+
+---
+
+## 📉 Histogram Visualization
+
+Visualize numerical distributions using histograms.
+
+![Histogram](assets/visualization_hist.png)
+
+---
+
+## 🥧 Pie Chart Visualization
+
+Generate interactive pie charts for categorical data.
+
+![Pie](assets/visualization_pie.png)
+
+---
+
+## 🤖 Machine Learning
+
+Train and evaluate Machine Learning models directly from the browser.
+
+![Machine Learning](assets/ml.png)
+
+---
+
+## 🧠 AI Insights
+
+Generate intelligent natural-language insights using a locally running **Llama 3.2** model through Ollama.
+
+![AI Insights](assets/ai_insights.png)
+
+---
+
+## 📄 Report Generation
+
+Generate and download a comprehensive PDF report summarizing the complete analysis session.
+
+![Report](assets/report_generation.png)
+
+---
+
+# 📊 Sample Dataset
+
+This repository includes a sample dataset for demonstration purposes.
+
+**Dataset Name**
+
+`fifa_world_cup_2026_player_performance.csv`
+
+**Source**
+
+Kaggle
+
+The dataset demonstrates the application's complete workflow including:
+
+- Dataset Upload
+- Data Profiling
+- Data Cleaning
+- Exploratory Data Analysis
+- Interactive Visualizations
+- Machine Learning
+- AI Insights
+- PDF Report Generation
+
+📂 Download:
+
+`assets/fifa_world_cup_2026_player_performance.csv`
+
+---
+
+# 📄 Sample Generated Report
+
+After analysis, the application automatically generates a professional PDF report containing:
+
+- Dataset Overview
+- Missing Value Summary
+- Cleaning History
+- Statistical Analysis
+- Machine Learning Metrics
+- Feature Importance
+- AI Insights
+- Visualizations
+
+📄 Sample Report
+
+`assets/report_fifa_world_cup_2026_player_performance.pdf`
+
+---
+
+# 🔄 Project Workflow
+
+```text
+                Upload CSV
+                     │
+                     ▼
+         Automatic Dataset Profiling
+                     │
+                     ▼
+            Data Cleaning & Preprocessing
+                     │
+                     ▼
+        Exploratory Data Analysis (EDA)
+                     │
+                     ▼
+      Interactive Data Visualizations
+                     │
+                     ▼
+        Machine Learning Model Training
+                     │
+                     ▼
+       AI Insights using Llama 3.2
+                     │
+                     ▼
+        Professional PDF Report
+```
+# Features
 
 - **Dataset Upload** — Drag-and-drop or browse CSV files (up to 50 MB)
 - **Analysis Dashboard** — Row/column counts, data types, missing values, descriptive statistics
@@ -13,8 +235,19 @@ A full-stack web application that enables users to upload CSV datasets and perfo
 - **Machine Learning** — Train classification (Logistic Regression, Decision Tree, Random Forest) and regression models with evaluation metrics
 - **AI Insights** — Generate natural language analysis using your local Llama 3.2 model via Ollama
 - **PDF Reports** — Download a comprehensive PDF report of your analysis session
+---
 
-## Tech Stack
+# 💡 Why AI Data Analyst?
+
+Traditional data analysis often requires writing Python code, understanding multiple libraries, and manually generating visualizations and reports.
+
+AI Data Analyst simplifies this entire workflow by providing a modern web interface that combines data science, machine learning, and artificial intelligence into a single application.
+
+Whether you're a student learning data science, an analyst exploring datasets, or a developer wanting quick insights, AI Data Analyst removes the coding barrier while still providing powerful analytical capabilities.
+
+---
+
+# Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -23,22 +256,16 @@ A full-stack web application that enables users to upload CSV datasets and perfo
 | AI | Ollama + Llama 3.2 (local inference) |
 | Testing | pytest, Hypothesis (property-based), Vitest, fast-check |
 
-## Prerequisites
+# Setup
 
-- **Python 3.11+**
-- **Node.js 18+**
-- **Ollama** (for AI insights feature)
-
-## Setup
-
-### 1. Clone the repository
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/ai-data-analyst.git
 cd ai-data-analyst
 ```
 
-### 2. Backend setup
+## 2. Backend setup
 
 ```bash
 cd backend
@@ -48,14 +275,14 @@ venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 ```
 
-### 3. Frontend setup
+## 3. Frontend setup
 
 ```bash
 cd frontend
 npm install
 ```
 
-### 4. Ollama setup (for AI Insights)
+## 4. Ollama setup (for AI Insights)
 
 ```bash
 # Install Ollama from https://ollama.ai
@@ -63,9 +290,9 @@ ollama pull llama3.2
 ollama serve
 ```
 
-## Running the Application
+# Running the Application
 
-### Start the backend (Terminal 1)
+## Start the backend (Terminal 1)
 
 ```bash
 cd backend
@@ -74,7 +301,7 @@ python app.py
 
 The Flask server starts at `http://localhost:5000`.
 
-### Start the frontend (Terminal 2)
+## Start the frontend (Terminal 2)
 
 ```bash
 cd frontend
@@ -83,7 +310,7 @@ npm run dev
 
 The React app starts at `http://localhost:5173`.
 
-### Open in browser
+## Open in browser
 
 Navigate to `http://localhost:5173`
 
@@ -103,92 +330,314 @@ cd frontend
 npx vitest run
 ```
 
-## Project Structure
 
+# 🎯 Key Capabilities
+
+### 📂 Smart Dataset Upload
+
+- Drag-and-drop CSV upload
+- Automatic validation
+- Supports datasets up to **50 MB**
+- Instant dataset profiling
+
+---
+
+### 🧹 Data Cleaning
+
+Perform common preprocessing tasks without writing Pandas code.
+
+Supported operations include:
+
+- Missing value handling
+- Duplicate removal
+- Outlier detection (IQR)
+- Rename columns
+- Drop columns
+- Data type conversion
+- Encoding categorical variables
+- Feature scaling
+
+---
+
+### 📊 Exploratory Data Analysis
+
+Automatically generate:
+
+- Dataset overview
+- Missing value summary
+- Data types
+- Descriptive statistics
+- Correlation analysis
+- Distribution analysis
+
+---
+
+### 📈 Interactive Visualizations
+
+Generate publication-ready charts including:
+
+- Histograms
+- Scatter plots
+- Line charts
+- Bar charts
+- Pie charts
+- Box plots
+- Correlation Heatmaps
+
+---
+
+### 🤖 Machine Learning
+
+Train models directly inside the application.
+
+Supported algorithms include:
+
+#### Classification
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+#### Regression
+
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+
+Includes:
+
+- Train/Test Split
+- Performance Metrics
+- Accuracy Evaluation
+- Feature Importance
+
+---
+
+### 🧠 AI Insights
+
+One of the application's standout features is its ability to generate natural-language insights using a locally running Large Language Model.
+
+Powered by:
+
+- Ollama
+- Llama 3.2
+
+Because inference runs locally:
+
+- No internet required
+- No API costs
+- Better privacy
+- No dataset leaves your computer
+
+---
+
+### 📄 Automated Report Generation
+
+After completing the workflow, AI Data Analyst generates a comprehensive PDF report containing:
+
+- Dataset summary
+- Cleaning history
+- Statistical analysis
+- Visualizations
+- Machine Learning results
+- AI-generated insights
+
+This report can be shared or downloaded for future reference.
+
+---
+
+# 🏗️ Application Architecture
+
+```text
+                 React + Tailwind Frontend
+                           │
+                           ▼
+                     Flask REST API
+                           │
+     ┌───────────────┬───────────────┬───────────────┐
+     │               │               │               │
+     ▼               ▼               ▼               ▼
+ Data Cleaning     EDA Engine    ML Engine     AI Insights
+     │               │               │               │
+     └───────────────┴───────────────┴───────────────┘
+                           │
+                           ▼
+                  PDF Report Generation
 ```
-ai-data-analyst/
-├── backend/
-│   ├── app.py              # Flask application entry point
-│   ├── routes.py           # API route definitions
-│   ├── cleaning.py         # Data cleaning operations
-│   ├── eda.py              # Exploratory data analysis computations
-│   ├── ml.py               # Machine learning training & evaluation
-│   ├── insights.py         # AI insights via Ollama/Llama 3.2
-│   ├── report.py           # PDF report generation
-│   ├── utils.py            # Shared utility functions
-│   ├── requirements.txt    # Python dependencies
-│   ├── uploads/            # Uploaded CSV files (gitignored)
-│   ├── reports/            # Generated PDF reports (gitignored)
-│   └── tests/              # Backend test suite
-├── frontend/
-│   ├── src/
-│   │   ├── pages/          # React page components
-│   │   ├── components/     # Shared UI components
-│   │   ├── services/       # API service modules
-│   │   ├── hooks/          # Custom React hooks
-│   │   └── contexts/       # React Context providers
-│   ├── package.json
-│   └── vite.config.js
-└── README.md
-```
 
-## API Endpoints
+---
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/upload` | Upload a CSV file |
-| GET | `/summary` | Dataset summary metadata |
-| GET | `/statistics` | Descriptive statistics |
-| POST | `/clean` | Apply cleaning operation |
-| GET | `/download-cleaned` | Download cleaned CSV |
-| GET | `/visualizations` | Get chart data |
-| POST | `/train` | Train ML model |
-| GET | `/feature-importance` | Feature importance scores |
-| POST | `/generate-insights` | Generate AI insights |
-| GET | `/download-report` | Download PDF report |
-| POST | `/reset-session` | Clear session data |
+# ⚡ Technologies Used
 
-## FAQ
+This project demonstrates practical implementation of modern technologies across the full stack.
 
-**Q: What file formats are supported?**
-Only CSV files are supported. The file must have a `.csv` extension and be between 1 byte and 50 MB in size.
+### Frontend
 
-**Q: Do I need an internet connection to use this app?**
-No. Everything runs locally — the Flask backend, the React frontend, and the AI model (Ollama). No data leaves your machine.
+- React 19
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+- Recharts
 
-**Q: The AI Insights feature isn't working. What do I check?**
-Make sure Ollama is running (`ollama serve`) and that you've pulled the model (`ollama pull llama3.2`). The app connects to `http://localhost:11434`. If insights are slow, that's normal — local LLM inference takes 30–120 seconds depending on your hardware.
+### Backend
 
-**Q: Can I use a different LLM model instead of Llama 3.2?**
-Yes. Edit `backend/insights.py` and change the `OLLAMA_MODEL` variable to any model you have installed in Ollama (e.g., `mistral`, `llama3.1`, `gemma2`).
+- Flask
+- Pandas
+- NumPy
+- Scikit-learn
+- FPDF2
 
-**Q: My file uploaded but the Analysis page shows no data.**
-Restart the Flask backend (`Ctrl+C` then `python app.py`). This can happen if the server encountered an error during processing. Also ensure your CSV is properly formatted with comma delimiters.
+### Artificial Intelligence
 
-**Q: Can I upload a new dataset without restarting the app?**
-Yes. On the Home page, click "Start New Analysis" to clear the current dataset and all analysis results, then upload a new file.
+- Ollama
+- Llama 3.2
 
-**Q: What machine learning algorithms are available?**
-Classification: Logistic Regression, Decision Tree, Random Forest. Regression: Linear Regression, Decision Tree, Random Forest. All use an 80/20 train/test split with a fixed random seed for reproducibility.
+### Testing
 
-**Q: What does the PDF report include?**
-The report includes only the steps you've completed: dataset summary, cleaning operations performed, model evaluation metrics, feature importance (for tree-based models), and AI-generated insights. Sections you haven't used are omitted.
+- pytest
+- Hypothesis
+- Vitest
+- fast-check
 
-**Q: How are outliers detected?**
-Using the IQR (Interquartile Range) method. Values below Q1 − 1.5×IQR or above Q3 + 1.5×IQR are flagged as outliers.
+---
 
-**Q: Is my data stored permanently?**
-Uploaded files are stored in `backend/uploads/` for the duration of your session. They are not sent to any external service. Use "Start New Analysis" to delete the file, or manually clear the `uploads/` folder.
+# 📚 Learning Objectives
 
-**Q: Can I deploy this to a server?**
-Yes, but you'd need Ollama running on that server for AI insights. For production, replace `app.run(debug=True)` with a proper WSGI server like Gunicorn, and build the frontend with `npm run build` to serve static files.
+This project demonstrates knowledge of:
 
-**Q: The app is slow with large datasets.**
-Pandas operations on large files (>10 MB) can be CPU-intensive. Consider cleaning your data to reduce row count, or run on a machine with more RAM. The backend processes everything in-memory.
+- Full Stack Web Development
+- REST API Design
+- Data Science
+- Exploratory Data Analysis
+- Machine Learning
+- Artificial Intelligence
+- Local LLM Integration
+- Data Visualization
+- Software Architecture
+- PDF Report Generation
+- Testing
 
-**Q: Feature importance says "only available for tree-based models." Why?**
-Logistic Regression and Linear Regression don't expose `feature_importances_` in scikit-learn. Use Decision Tree or Random Forest to see feature importance rankings.
+---
 
-## License
+---
 
-MIT
+# 🌟 Project Highlights
+
+AI Data Analyst is a full-stack application that combines modern web development, data science, machine learning, and artificial intelligence into a single platform.
+
+### Full-Stack Development
+- React 19 frontend
+- Flask REST API backend
+- Responsive user interface
+- Component-based architecture
+
+### Data Science
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- Data Visualization
+
+### Machine Learning
+- Classification Models
+- Regression Models
+- Model Evaluation
+- Feature Importance Analysis
+
+### Artificial Intelligence
+- Local LLM Integration
+- AI-generated dataset insights
+- Ollama + Llama 3.2
+
+### Software Engineering
+- REST API Development
+- Modular Architecture
+- PDF Report Generation
+- Automated Testing
+
+---
+
+# 🎓 Project Purpose
+
+This project was developed as a portfolio project to demonstrate practical implementation of:
+
+- Full-Stack Web Development
+- REST API Development
+- Data Science
+- Machine Learning
+- Artificial Intelligence
+- Data Visualization
+- Software Engineering
+
+It showcases how modern frontend technologies can be integrated with Python-based data science libraries and local AI models to build a complete end-to-end analytics platform.
+
+---
+
+# 🙏 Acknowledgements
+
+This project would not have been possible without the amazing open-source community.
+
+Special thanks to the teams behind:
+
+- React
+- Flask
+- Pandas
+- NumPy
+- Scikit-learn
+- Tailwind CSS
+- Recharts
+- Ollama
+- Llama 3.2
+- FPDF2
+- pytest
+- Vitest
+
+---
+
+# 👨‍💻 Author
+
+## Maurya Trivedi
+
+**Computer Science Engineering Student**
+
+AI Data Analyst was built as part of my software engineering portfolio to demonstrate practical skills in:
+
+- Full-Stack Development
+- Data Science
+- Machine Learning
+- Artificial Intelligence
+- REST API Design
+- Data Visualization
+
+### Connect With Me
+
+- GitHub: https://github.com/YOUR_USERNAME
+- LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
+
+
+
+---
+
+# ⭐ Support
+
+If you found this project interesting or useful, consider giving it a **⭐ Star** on GitHub.
+
+Your support is greatly appreciated!
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+See the `LICENSE` file for more information.
+
+---
+
+<div align="center">
+
+### Thank you for visiting this repository! 🚀
+
+Built with ❤️ using **React**, **Flask**, **Python**, **Machine Learning**, and **Llama 3.2**
+
+</div>
