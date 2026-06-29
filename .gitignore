@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+*.cover
+
+# Backend uploads and reports (runtime data)
+backend/uploads/*.csv
+backend/reports/*.pdf
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary test files
+test_ml_quick.py
+
+# Kiro specs (optional — remove this line if you want to track specs)
+# .kiro/

@@ -1,0 +1,10 @@
+Flask==3.1.1
+flask-cors==5.0.1
+pandas==2.2.3
+numpy==2.2.6
+matplotlib==3.10.3
+scikit-learn==1.6.1
+requests==2.32.3
+fpdf2==2.8.3
+pytest==8.3.5
+hypothesis==6.131.9
