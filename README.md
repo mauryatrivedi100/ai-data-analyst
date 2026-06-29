@@ -13,6 +13,11 @@ Upload a CSV dataset and perform an entire data science workflow — from data c
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-Llama_3.2-orange)
+![License](https://img.shields.io/github/license/mauryatrivedi100/AI-Data-Analyst)
+![Repo Size](https://img.shields.io/github/repo-size/mauryatrivedi100/AI-Data-Analyst)
+
+
+
 
 </div>
 
