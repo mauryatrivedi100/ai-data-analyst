@@ -573,26 +573,6 @@ It showcases how modern frontend technologies can be integrated with Python-base
 
 ---
 
-# 🙏 Acknowledgements
-
-This project would not have been possible without the amazing open-source community.
-
-Special thanks to the teams behind:
-
-- React
-- Flask
-- Pandas
-- NumPy
-- Scikit-learn
-- Tailwind CSS
-- Recharts
-- Ollama
-- Llama 3.2
-- FPDF2
-- pytest
-- Vitest
-
----
 
 # 👨‍💻 Author
 
@@ -611,8 +591,8 @@ AI Data Analyst was built as part of my software engineering portfolio to demons
 
 ### Connect With Me
 
-- GitHub: https://github.com/YOUR_USERNAME
-- LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
+- GitHub: https://github.com/mauryatrivedi100
+- LinkedIn: https://linkedin.com/in/mauryatrivedi
 
 
 
