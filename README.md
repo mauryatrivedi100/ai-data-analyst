@@ -518,7 +518,6 @@ This project demonstrates knowledge of:
 - PDF Report Generation
 - Testing
 
----
 
 ---
 
