@@ -237,16 +237,6 @@ After analysis, the application automatically generates a professional PDF repor
 - **PDF Reports** — Download a comprehensive PDF report of your analysis session
 ---
 
-## 💡 Why AI Data Analyst?
-
-Traditional data analysis often requires writing Python code, understanding multiple libraries, and manually generating visualizations and reports.
-
-AI Data Analyst simplifies this entire workflow by providing a modern web interface that combines data science, machine learning, and artificial intelligence into a single application.
-
-Whether you're a student learning data science, an analyst exploring datasets, or a developer wanting quick insights, AI Data Analyst removes the coding barrier while still providing powerful analytical capabilities.
-
----
-
 # Tech Stack
 
 | Layer | Technology |
@@ -419,120 +409,6 @@ Pandas operations on large files (>10 MB) can be CPU-intensive. Consider cleanin
 Logistic Regression and Linear Regression don't expose `feature_importances_` in scikit-learn. Use Decision Tree or Random Forest to see feature importance rankings.
 
 
-# 🎯 Key Capabilities
-
-### 📂 Smart Dataset Upload
-
-- Drag-and-drop CSV upload
-- Automatic validation
-- Supports datasets up to **50 MB**
-- Instant dataset profiling
-
----
-
-### 🧹 Data Cleaning
-
-Perform common preprocessing tasks without writing Pandas code.
-
-Supported operations include:
-
-- Missing value handling
-- Duplicate removal
-- Outlier detection (IQR)
-- Rename columns
-- Drop columns
-- Data type conversion
-- Encoding categorical variables
-- Feature scaling
-
----
-
-### 📊 Exploratory Data Analysis
-
-Automatically generate:
-
-- Dataset overview
-- Missing value summary
-- Data types
-- Descriptive statistics
-- Correlation analysis
-- Distribution analysis
-
----
-
-### 📈 Interactive Visualizations
-
-Generate publication-ready charts including:
-
-- Histograms
-- Scatter plots
-- Line charts
-- Bar charts
-- Pie charts
-- Box plots
-- Correlation Heatmaps
-
----
-
-### 🤖 Machine Learning
-
-Train models directly inside the application.
-
-Supported algorithms include:
-
-#### Classification
-
-- Logistic Regression
-- Decision Tree
-- Random Forest
-
-#### Regression
-
-- Linear Regression
-- Decision Tree Regressor
-- Random Forest Regressor
-
-Includes:
-
-- Train/Test Split
-- Performance Metrics
-- Accuracy Evaluation
-- Feature Importance
-
----
-
-### 🧠 AI Insights
-
-One of the application's standout features is its ability to generate natural-language insights using a locally running Large Language Model.
-
-Powered by:
-
-- Ollama
-- Llama 3.2
-
-Because inference runs locally:
-
-- No internet required
-- No API costs
-- Better privacy
-- No dataset leaves your computer
-
----
-
-### 📄 Automated Report Generation
-
-After completing the workflow, AI Data Analyst generates a comprehensive PDF report containing:
-
-- Dataset summary
-- Cleaning history
-- Statistical analysis
-- Visualizations
-- Machine Learning results
-- AI-generated insights
-
-This report can be shared or downloaded for future reference.
-
----
 
 # 🏗️ Application Architecture
 
@@ -555,35 +431,6 @@ This report can be shared or downloaded for future reference.
 
 ---
 
-# ⚡ Technologies Used
-
-This project demonstrates practical implementation of modern technologies across the full stack.
-
-| Category | Technologies |
-|----------|--------------|
-| 🎨 **Frontend** | React 19, Vite, Tailwind CSS, React Router, Axios, Recharts |
-| ⚙️ **Backend** | Flask, Pandas, NumPy, Scikit-learn, FPDF2 |
-| 🤖 **Artificial Intelligence** | Ollama, Llama 3.2 |
-| 🧪 **Testing** | pytest, Hypothesis, Vitest, fast-check |
-
-# 📚 Learning Objectives
-
-This project demonstrates knowledge of:
-
-- Full Stack Web Development
-- REST API Design
-- Data Science
-- Exploratory Data Analysis
-- Machine Learning
-- Artificial Intelligence
-- Local LLM Integration
-- Data Visualization
-- Software Architecture
-- PDF Report Generation
-- Testing
-
-
----
 
 # 🌟 Project Highlights
 
